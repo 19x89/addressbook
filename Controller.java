@@ -3,6 +3,12 @@ package addressbook;
 import java.awt.event.*;
 import java.awt.*;
 
+/*
+MVC-Teil: Controll
+Diese Klasse beschreibt alle Reaktionen auf verschiedene Ereignisse, 
+wie auch erzeugt das Dialog-Fernster zum Hinzufügen eins neuen Personen-Objekts.
+*/
+
 public class Controller extends WindowAdapter implements ActionListener {
     private PersonPanel view;
     private Frame mainFrame;
