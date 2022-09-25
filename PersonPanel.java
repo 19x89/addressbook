@@ -3,6 +3,11 @@ package addressbook;
 import java.awt.*;
 import java.util.Iterator;
 
+/*
+MVC-Teil: View
+Die Klasse füllt das Hauptfenster mit den Daten aus dem Datenmodell (mit den Personen-Objekten).
+*/
+
 public class PersonPanel extends Panel {
     private AddressBookDataModel model;
     
@@ -16,6 +21,8 @@ public class PersonPanel extends Panel {
         refresh();
     }
     
+    // Wenn ein neues Personen-Objekt hinzufügt ist -> 
+    // alle Daten von dem PersonenPanel werden gelöscht und erneut (mit den neuen Daten) erzeugt.
     public void refresh() {
         removeAll();
         boolean isEvenRowNumber = true;
