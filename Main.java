@@ -3,6 +3,11 @@ package addressbook;
 import java.awt.*;
 import java.io.File;
 
+/*
+Die Hauptklasse ist zum Starten des Programms 
+sowie das Erzeugen und Verbinden alle drei Teilsysteme.
+*/
+
 public class Main {
     private static final String ADDRESSBOOK_DEFAULT_NAME = "test.ab";
     private SerializationToFilePersistence persistence;
