@@ -2,6 +2,8 @@ package addressbook;
 
 import java.io.Serializable;
 
+/* MVC-Teil: Model */
+
 public class Person implements Serializable {
     private final String firstName;
     private final String lastName;
