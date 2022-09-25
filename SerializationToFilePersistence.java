@@ -2,6 +2,11 @@ package addressbook;
 
 import java.io.*;
 
+/*
+MVC-Teil: Modell
+Speichern/laden das Adressbuch.
+*/
+
 public class SerializationToFilePersistence implements FullPersistence {
     private String addressBookPath;
     
