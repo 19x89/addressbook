@@ -2,6 +2,11 @@ package addressbook;
 
 import java.awt.*;
 
+/*
+MVC-Teil: View
+Diese Klasse erstellt das Hauptfenster des Programms.
+*/
+
 public class AddressBookMainFrame extends Frame {
     public AddressBookMainFrame( PersonPanel personPanel, Button newButton ) {
         super( "Adressbuch" );
