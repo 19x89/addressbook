@@ -2,7 +2,11 @@ package addressbook;
 
 import java.io.Serializable;
 
-/* MVC-Teil: Model */
+/* 
+MVC-Teil: Model 
+Personen-Objekte besitzen Instanzvariablen für Vorname, Nachname und Telefonnummer,
+die in einer ArrayList mit Elementtyp Person aufbewahrt werden.
+*/
 
 public class Person implements Serializable {
     private final String firstName;
